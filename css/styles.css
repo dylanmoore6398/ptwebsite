@@ -1,0 +1,137 @@
+.index-body {
+    font-family: 'Teko', sans-serif;
+    background-image: url("/img/squat-dylan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-blend-mode: luminosity;
+}
+
+h1, h2, h3 {
+    font-family: 'Teko', cursive;
+}
+
+.index-h2 {
+    color: #3046C5;
+    font-size: 40px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 50px;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+h5 {
+    font-family: 'Teko', cursive;
+    color: white;
+}
+
+.site-footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: black;
+    color: black;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: black;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+}
+
+.nav-item {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+.card-image {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.index-title {
+    color: #3046C5;
+    font-size: 80px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.index-subhead {
+    font-size: 40px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 50px;
+}
+
+.page-h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.page-h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.page-p {
+    color: white;
+}
+
+.page-body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%);
+}
+
+.blockquote {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+}
+
+.container-about {
+    margin-bottom: 20px;
+}
+
+.contact-p {
+    margin-bottom: 250px;
+}
+
+.carousel-p {
+    width: auto;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.carousel-header {
+    margin-top: 10px;
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Dylan Moore Coaching</title>
+</head>
+
+<body class="index-body">
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/nav-logo.jpg" height="60" width="60" />DYLAN MOORE COACHING</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutme.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactme.html">Contact</a></li>
+                </ul>
+            </div>    
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row row-content align-items-center text-center">
+            <div class="mx-auto">
+                <h2 class="index-title">DYLAN MOORE COACHING</h2>
+                    <p class="d-sm-block index-subhead">Pain-Free Training For Everyday Athletes</p>
+                    <a href="#" class="btn btn-primary btn-lg">GET STARTED NOW!</a>
+            </div>    
+        </div>
+
+        <div class="row row-content text-center">
+            <div class="col-12">
+                <h2 class="index-h2">TOP SERVICES</h2>
+            </div>
+            <div class="col-sm-4 mb-3">
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white">PERSONAL TRAINING</h3>
+                    <div class="card-body">
+                        <img class="img-fluid d-none d-sm-block card-image" src="img/client-sharon.jpg" />
+                        <p>Receive customized, in-person 1-on-1 programming and guidance to reach your individual goals.</p>
+                        <a href="#" class="btn btn-primary">GET STARTED NOW!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-3">
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white">NUTRITION COACHING</h3>
+                    <div class="card-body">
+                        <img class="img-fluid d-none d-sm-block card-image" src="img/nutrition-chicken.jpg" />
+                        <p>Optimize your nutrition to ensure proper recovery, high level performance and prevent long-term health issues.</p>
+                        <a href="#" class="btn btn-primary">GET STARTED NOW!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <h3 class="card-header bg-primary text-white">ONLINE COACHING</h3>
+                    <div class="card-body">
+                        <img class="img-fluid d-none d-sm-block card-image" src="img/squat-cassandra.jpg" />
+                        <p>Not in the Pittsburgh area?  Follow personalized online programming with regular virtual check-in sessions.</p>
+                        <a href="#" class="btn btn-primary">GET STARTED NOW!</a>
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="aboutme.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contactme.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-234-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> dylanmoorecoaching@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+
+</html>
